@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.androidrecordaudio.MainActivity">
+
+    <TextView
+        android:layout_width="214dp"
+        android:layout_height="93dp"
+        android:drawingCacheQuality="auto"
+        android:text="RECORD AREA 🎧"
+        android:textColor="#ba160c"
+        android:textSize="30sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnStartRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="RECORD"
+        android:textColor="#ba160c"
+        android:textColorHighlight="@color/colorAccent"
+        android:textColorLink="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/btnStopRecord"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:text="STOP RECORD " />
+
+    <TextView
+        android:layout_width="204dp"
+        android:layout_height="93dp"
+        android:text="PLAY AREA 🎶🎶"
+        android:textColor="#ba160c"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="#ba160c"
+        android:text="PLAY" />
+
+    <Button
+        android:id="@+id/btnStop"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:text="STOP " />
+
+
+</LinearLayout>
